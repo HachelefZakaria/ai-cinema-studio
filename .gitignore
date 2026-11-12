@@ -1,0 +1,52 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+*_last_response.txt
+output/
+workspace/
+*.zip
+*.tmp
+
+# Local creative workspaces and generated media
+projects/
+media/
+exports/
+test_outputs/
+references/
+logs/
+
+# IDE / build / test artifacts
+.vscode/
+.idea/
+.coverage
+htmlcov/
+build/
+dist/
+*.sqlite3
+*.db
+
+# Secrets / signing material
+*.pem
+*.p12
+*.key
+credentials.json
+secrets.json
+
+# Python packaging and operating-system noise
+*.egg-info/
+.eggs/
+.coverage.*
+.DS_Store
+Thumbs.db
+*.spec
+*.msi
+*.exe
+*.dmg

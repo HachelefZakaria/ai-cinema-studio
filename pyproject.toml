@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-cinema-studio"
+version = "1.9.0"
+description = "A model-agnostic multi-agent AI film production desktop studio."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+classifiers = [
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: Microsoft :: Windows",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.15",
+]
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2.7,<3",
+  "httpx>=0.27,<1",
+  "PySide6>=6.12,<7",
+  "keyring>=25",
+]
+
+[tool.setuptools.packages.find]
+include = ["ai_cinema_factory*", "ai_cinema_studio*"]
+
+[tool.setuptools.package-data]
+ai_cinema_studio = ["locales/*.json"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]

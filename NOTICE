@@ -1,0 +1,5 @@
+AI Cinema Studio
+
+This repository does not vendor third-party Python packages or external media
+binaries. Runtime dependencies and external tools are installed separately and
+remain subject to their own licenses and terms. See THIRD_PARTY_NOTICES.md.

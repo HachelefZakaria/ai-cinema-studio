@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use AI Cinema Studio in research or a project, please cite this release."
+title: "AI Cinema Studio"
+version: 1.9.0
+date-released: 2026-11-12
+type: software
+license: Apache-2.0
+authors:
+  - name: "AI Cinema Studio contributors"
